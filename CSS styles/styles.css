@@ -1,0 +1,43 @@
+header, footer, section, nav {
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Arial, sans-serif;
+    font-weight: normal; 
+    color: #333; 
+}
+
+a:link {
+    color: #007bff; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #6610f2; 
+}
+
+a:hover {
+    color: #0056b3; 
+}
+
+.header-bg {
+    background-color: #4caf50;
+}
+
+.footer-bg {
+    background-color: #ff9800; 
+}
+
+.main-bg {
+    background-color: #2196f3; 
+}
+
+.nav-bg {
+    background-color: #f44336; 
+}
+
+.special-text {
+    font-weight: bold; 
+    color: #e60000; 
+}
