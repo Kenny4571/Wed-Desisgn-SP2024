@@ -1,24 +1,31 @@
 header, footer, section, nav {
-    background-color: #f2f2f2; 
+    background-color: #7e0943; 
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    color: rgba(238, 45, 45, 0.884); 
+}
+
+p {
     font-family: Arial, sans-serif; 
     font-weight: normal; 
-    color: #333; 
+    color: rgb(228, 168, 168); 
+    line-height: 1.5; 
 }
 
 a:link {
-    color: #007bff; 
+    color: #00ff00; 
     text-decoration: none; 
 }
 
 a:visited {
-    color: #6610f2; 
+    color: #008000; 
 }
 
 a:hover {
-    color: #0056b3; 
+    color: #7fff00; 
 }
 
 .header-bg {
@@ -42,8 +49,35 @@ a:hover {
     color: #e60000; 
 }
 
+
 h1 {
     background: linear-gradient(45deg, #ff9a9e, #fad0c4); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
+}
+
+h2 {
+    color: #ff0; 
+}
+
+h3 {
+    color: #ff4500; 
+}
+
+h4 {
+    color: #ff8c00; 
+}
+
+h5 {
+    color: #ff8c00; 
+}
+
+h6 {
+    color: #80732a; 
+
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: rgb(228, 168, 168);
 }
