@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply border to certain elements for design */
+header,
+nav,
+main,
+section,
+footer {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Set the width of the main section to 80% of the viewport width */
+main {
+    width: 80vw;
+}
+
+/* Float the aside to the right */
+aside {
+    float: right;
+    width: 20vw; /* Adjust as needed */
+    position: sticky;
+    top: 0;
+}
+
+/* Float images inside articles alternating between left and right */
+section img {
+    float: left; /* Float left for odd-numbered sections */
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+section:nth-child(even) img {
+    float: right; /* Float right for even-numbered sections */
+    margin-left: 10px; /* Adjust spacing as needed */
+}
+
+/* Responsive images */
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Positioning the logo */
+header h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Styling the navigation menu */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f8f8;
+    padding: 10px;
+    width: 100%;
+    z-index: 1000; /* Ensure nav is on top of other content */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
