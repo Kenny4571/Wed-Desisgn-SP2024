@@ -4,77 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <style>
-        /* Center the form horizontally */
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        form {
-            width: 70%;
-        }
-        /* Optional: Style for better readability */
-        fieldset {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="text"],
-        textarea,
-        select {
-            width: 100%;
-            padding: 8px;
-            margin-top: 3px;
-            margin-bottom: 10px;
-            box-sizing: border-box; /* Ensure the padding and border are included in the element's total width and height */
-        }
-        button[type="submit"],
-        button[type="reset"] {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        button[type="submit"]:hover,
-        button[type="reset"]:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- W3.CSS stylesheet -->
 </head>
 <body>
 
 <form method="post" action="mailto:your-email@example.com" enctype="text/plain">
     <fieldset>
-        <legend>Contact Information</legend>
-        <label for="firstname">First Name:</label>
-        <input type="firstname" id="firstname" name="firstname" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="w3-container w3-teal">
+            <h2>Contact Information</h2>
+        </div>
+        <label>First Name</label>
+        <input class="w3-input" type="text">
+        <label>Email</label>
+        <input class="w3-input" type="text">
+        <label>Message</label>
+        <input class="w3-input" type="text">
     </fieldset>
 
     <fieldset>
-        <legend>Preferences</legend>
         <label>Preferred Contact Method:</label><br>
         <input type="radio" id="contact-email" name="contact-method" value="email" checked>
         <label for="contact-email">Email</label><br>
         <input type="radio" id="contact-phone" name="contact-method" value="phone">
         <label for="contact-phone">Phone</label><br>
-        
         <label for="subscribe">Subscribe to Newsletter:</label>
         <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-        
         <label for="inquiry-type">Inquiry Type:</label>
-        <select id="inquiry-type" name="inquiry-type" required>
+        <select id="inquiry-type" name="inquiry-type" required class="w3-select">
             <option value="">Select One</option>
             <option value="general">General Inquiry</option>
             <option value="support">Customer Support</option>
@@ -83,23 +39,22 @@
     </fieldset>
 
     <div>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <button type="submit" class="w3-button w3-green">Submit</button>
+        <button type="reset" class="w3-button w3-red">Reset</button>
     </div>
 </form>
 
-</body>
-</html>
 <!-- New table section -->
 <section id="table-section">
-    <h2>Events Schedule</h2>
-    <table>
+    <h3>Events Schedule List</h3>
+    <p>Below is a table with the list of Schedule Events</p>
+    <table class="w3-table w3-striped w3-bordered">
         <caption>Upcoming Events</caption>
         <thead>
-            <tr>
-                <th scope="col">Date</th>
-                <th scope="col">Event</th>
-                <th scope="col">Location</th>
+            <tr class="w3-teal">
+                <th>Date</th>
+                <th>Event</th>
+                <th>Location</th>
             </tr>
         </thead>
         <tbody>
@@ -133,5 +88,4 @@
 </section>
 
 </body>
-
 </html>

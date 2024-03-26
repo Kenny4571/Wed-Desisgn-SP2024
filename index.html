@@ -24,31 +24,58 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="CSS styles/styles.css" />
+ <!-- Link to styles.css --> href="css/styles.css"> -->
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="CSS/layout.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+    /* Custom styles */
+    /* Define custom color scheme */
+    .custom-bg {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+
+    .custom-header {
+        background-color: #880000; /* Dark Red */
+        color: white;
+    }
+
+    .custom-footer {
+        background-color: #333; /* Dark Gray */
+        color: white;
+    }
+  </style>
 </head>
 
-<img id="logo" src="images/theater1.gif" alt="theater1">
+<body class="custom-bg">
+
+    <header class="custom-header">
+    <div class="w3-burgundy">
+    <img id="logo" src="images/theater1.gif" alt="theater1">
+    <div class="w3-green w3-hover-shadow w3-center">
+       </div>
    
 <figcaption>Logo </figcaption>
 </figure>
+</header>
 
-<body>
-   
-<header>
-        <h1>CarrollOConnor</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#career">Career</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#legacy">Legacy</a></li>
-                <li><a href="https://example.com" target="_blank">External Link</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="Add images.html">Images</a></li> 
-                <li><a href="favicon">Gallery</a></li>
-            </ul>
-        </nav>
+<div class="w3-container w3-green">
+    <h1>CarrollOConnor</h1>
+  </div>
+  <nav class="w3-bar w3-green">
+    <ul>
+        <li><a href="#home">Home <i class="fa fa-home"></i></a></li>
+        <li><a href="#about">About Us <i class="fa fa-info-circle"></i></a></li>
+        <li><a href="#career">Career <i class="fa fa-briefcase"></i></a></li>
+        <li><a href="#achievements">Achievements <i class="fa fa-trophy"></i></a></li>
+        <li><a href="#legacy">Legacy <i class="fa fa-book"></i></a></li>
+        <li><a href="https://example.com" target="_blank">External Link <i class="fa fa-external-link"></i></a></li>
+        <li><a href="contact-us.html">Contact Us <i class="fa fa-envelope"></i></a></li>
+        <li><a href="Add images.html">Images <i class="fa fa-image"></i></a></li>
+        <li><a href="favicon">Gallery <i class="fa fa-camera"></i></a></li>
+    </ul>
+</nav>
     </header>
 
     <main>
@@ -59,19 +86,23 @@
         </section>
 
         <section id="about">
-            <h2>Introduction</h2>
+            <div class="w3-container w3-green">
+                <h2>Introduction</h2>
+              </div>
             <a href="images/imagename-lg.ext.png" target="_blank">
-                <img src="images/imagename-thumb.ext.png" alt="Thumbnail 1" class="thumbnail">
+                <img src="images/imagename-thumb.ext.png" alt="Thumbnail 1 class thumbnail">
             </a>
             <figcaption>Avarta </figcaption>
         </figure>
 
             <p>John Carroll O'Connor, born on August 2, 1924, in New York City, remains an iconic figure in American entertainment history. Best known for his portrayal of Archie Bunker in the groundbreaking television sitcom "All in the Family," O'Connor's indelible performance earned him widespread acclaim and recognition. Through his portrayal of Archie Bunker, O'Connor navigated complex social issues with humor and depth, leaving an enduring impact on audiences and sparking important conversations about race, class, and societal norms.</p>
             <p>Beyond his iconic role as Archie Bunker, O'Connor had a multifaceted career spanning several decades. His versatility as an actor allowed him to excel in a variety of roles across film, television, and theater. From his Emmy-nominated performance as Chief Bill Gillespie in "In the Heat of the Night" to memorable film appearances in "Kelly's Heroes" and "A Bridge Too Far," O'Connor showcased his talent and range, solidifying his status as one of the most respected actors of his generation.</p>
-        </section>
+       </section>
 
         <section id="career">
-            <h2>Career</h2>
+            <div class="w3-container w3-green">
+                <h2>Career</h2>
+              </div>
             <figure>
                 <a href="images/imagename-lg.ext.png" target="_blank">
                     <img src="images/imagename-thumb.ext 1.png" alt="Thumbnail 2" class="thumbnail">
@@ -84,8 +115,10 @@
         </section>
 
         <section id="achievements">
-            <h2>Achievements</h2>
-            <ul>
+            <div class="w3-container w3-green">
+                <h2>Achievements</h2>
+              </div>
+            <ul class="w3-ul">
 
                 <li>Emmy Awards for Outstanding Lead Actor in a Comedy Series: O'Connor won the Outstanding Lead Actor in a Comedy Series for his portrayal of Archie Bunker in "All in the Family" multiple times during the 1970s.</li>
                 <li>Golden Globe Award for Best Actor in a Television Series (Musical or Comedy) in the year: 1972</li>
@@ -94,8 +127,10 @@
         </section>
 
         <section id="legacy">
-            <h2>Legacy</h2>
-            <figure>
+            <div class="w3-container w3-green">
+                <h2>Legacy</h2>
+              </div>
+         <figure>
 
                 <a href="images/imagename-lg.ext.png" target="_blank">
                     <img src="images/imagename-thumb.ext 1.png" alt="Thumbnail 3" class="thumbnail">
@@ -108,11 +143,20 @@
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
-            
+            <div class="w3-container w3-green">
+                <h3>Contact Us</h3>
+              </div>
+
             <p>For inquiries, please contact us at: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
             
-        </section>
+            </section>
+
+            <section id="Card">
+                <div class="w3-card-4">
+                    <img src="img_snowtops.jpg" alt="Alps">
+                    <div class="w3-container w3-center">
+                      <p>The Italian / Austrian Alps</p>
+                    </div>
 
     </main>
 
