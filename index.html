@@ -5,109 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="CSS styles/styles.css"> <!-- Link to styles.css -->
-    <title>Gallery</title> <!-- Link to favicon -->
-<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
- <!-- Link to styles.css --> href="css/styles.css"> -->
- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
- <link rel="stylesheet" href="CSS/layout.css" />
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <style>
-    /* Custom styles */
-    /* Define custom color scheme */
-    .custom-bg {
-        background-color: #4CAF50; /* Green */
-        color: white;
-    }
+    <link rel="stylesheet" href="CSS%20styles/styles.css"> <!-- Corrected href value -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Custom styles */
+        /* Define custom color scheme */
+        .custom-bg {
+            background-color: #00884885; /* Green */
+            color: white;
+        }
 
-    .custom-header {
-        background-color: #880000; /* Dark Red */
-        color: white;
-    }
+        .custom-header {
+            background-color: #880000; /* Dark Red */
+            color: white;
+        }
 
-    .custom-footer {
-        background-color: #333; /* Dark Gray */
-        color: white;
-    }
-  </style>
+        .custom-footer {
+            background-color: #333; /* Dark Gray */
+            color: white;
+        }
+    </style>
 </head>
 
 <body class="custom-bg">
 
     <header class="custom-header">
-    <div class="w3-burgundy">
-    <img id="logo" src="images/theater1.gif" alt="theater1">
-    <div class="w3-green w3-hover-shadow w3-center">
-       </div>
-   
-<figcaption>Logo </figcaption>
-</figure>
-</header>
-
-<div class="w3-container w3-green">
-    <h1>CarrollOConnor</h1>
-  </div>
-  <nav class="w3-bar w3-green">
-    <ul>
-        <li><a href="#home">Home <i class="fa fa-home"></i></a></li>
-        <li><a href="#about">About Us <i class="fa fa-info-circle"></i></a></li>
-        <li><a href="#career">Career <i class="fa fa-briefcase"></i></a></li>
-        <li><a href="#achievements">Achievements <i class="fa fa-trophy"></i></a></li>
-        <li><a href="#legacy">Legacy <i class="fa fa-book"></i></a></li>
-        <li><a href="https://example.com" target="_blank">External Link <i class="fa fa-external-link"></i></a></li>
-        <li><a href="contact-us.html">Contact Us <i class="fa fa-envelope"></i></a></li>
-        <li><a href="Add images.html">Images <i class="fa fa-image"></i></a></li>
-        <li><a href="favicon">Gallery <i class="fa fa-camera"></i></a></li>
-    </ul>
-</nav>
+        <div class="w3-burgundy">
+            <figure>
+                <img id="logo" src="images/theater1.gif" alt="theater1">
+                <figcaption>Logo</figcaption>
+            </figure>
+        </div>
     </header>
+
+    <div class="w3-container w3-green">
+        <h1>CarrollOConnor</h1>
+    </div>
+    <nav class="w3-bar w3-green">
+        <ul>
+            <li><a href="index.html">Home <i class="fa fa-home"></i></a></li>
+            <li><a href="about-us.html">About Us <i class="fa fa-info-circle"></i></a></li> <!-- Corrected link -->
+            <li><a href="contact-us.html">Contact Us <i class="fa fa-envelope"></i></a></li> <!-- Corrected link -->
+        </ul>
+    </nav>
 
     <main>
 
         <section id="home">
             <h2>Origin</h2>
-            <p>home Page.</p>
+            <p>Home Page.</p>
         </section>
 
         <section id="about">
             <div class="w3-container w3-green">
                 <h2>Introduction</h2>
-              </div>
-            <a href="images/imagename-lg.ext.png" target="_blank">
-                <img src="images/imagename-thumb.ext.png" alt="Thumbnail 1 class thumbnail">
-            </a>
-            <figcaption>Avarta </figcaption>
-        </figure>
+            </div>
+            <figure>
+                <a href="images/imagename-lg.ext.png" target="_blank">
+                    <img src="images/imagename-thumb.ext.png" alt="Thumbnail 1" class="thumbnail">
+                </a>
+                <figcaption>Avatar</figcaption>
+            </figure>
 
             <p>John Carroll O'Connor, born on August 2, 1924, in New York City, remains an iconic figure in American entertainment history. Best known for his portrayal of Archie Bunker in the groundbreaking television sitcom "All in the Family," O'Connor's indelible performance earned him widespread acclaim and recognition. Through his portrayal of Archie Bunker, O'Connor navigated complex social issues with humor and depth, leaving an enduring impact on audiences and sparking important conversations about race, class, and societal norms.</p>
             <p>Beyond his iconic role as Archie Bunker, O'Connor had a multifaceted career spanning several decades. His versatility as an actor allowed him to excel in a variety of roles across film, television, and theater. From his Emmy-nominated performance as Chief Bill Gillespie in "In the Heat of the Night" to memorable film appearances in "Kelly's Heroes" and "A Bridge Too Far," O'Connor showcased his talent and range, solidifying his status as one of the most respected actors of his generation.</p>
-       </section>
+        </section>
 
         <section id="career">
             <div class="w3-container w3-green">
                 <h2>Career</h2>
-              </div>
+            </div>
             <figure>
                 <a href="images/imagename-lg.ext.png" target="_blank">
                     <img src="images/imagename-thumb.ext 1.png" alt="Thumbnail 2" class="thumbnail">
                 </a>
-                <figcaption>Avarta </figcaption>
+                <figcaption>Avatar</figcaption>
             </figure>
 
             <p>John Carroll O'Connor's journey into acting began with a profound passion for the craft cultivated during his formative years. After completing his education at Wake Forest University, O'Connor embarked on a career path that initially diverged from his artistic aspirations. However, his love for acting remained steadfast, prompting him to enroll in the American Academy of Dramatic Arts in New York City. It was here that O'Connor honed his skills and laid the foundation for what would become a remarkable career in entertainment.</p>
@@ -117,9 +91,8 @@
         <section id="achievements">
             <div class="w3-container w3-green">
                 <h2>Achievements</h2>
-              </div>
+            </div>
             <ul class="w3-ul">
-
                 <li>Emmy Awards for Outstanding Lead Actor in a Comedy Series: O'Connor won the Outstanding Lead Actor in a Comedy Series for his portrayal of Archie Bunker in "All in the Family" multiple times during the 1970s.</li>
                 <li>Golden Globe Award for Best Actor in a Television Series (Musical or Comedy) in the year: 1972</li>
                 <li>Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Comedy Series: O'Connor's remarkable portrayal of Archie Bunker also earned him recognition from the Screen Actors Guild for Outstanding Performance by a Male Actor in a Comedy Series in the Year: 1996</li>
@@ -129,13 +102,12 @@
         <section id="legacy">
             <div class="w3-container w3-green">
                 <h2>Legacy</h2>
-              </div>
-         <figure>
-
+            </div>
+            <figure>
                 <a href="images/imagename-lg.ext.png" target="_blank">
-                    <img src="images/imagename-thumb.ext 1.png" alt="Thumbnail 3" class="thumbnail">
+                    <img src="images/imagename-thumb.ext.png" alt="Thumbnail 3" class="thumbnail">
                 </a>
-                <figcaption>Avarta </figcaption>
+                <figcaption>Avatar</figcaption>
             </figure>
 
             <p>John Carroll O'Connor's legacy is one of enduring significance and influence in both the entertainment industry and society at large. As an actor, O'Connor left an indelible mark through his portrayal of Archie Bunker in "All in the Family," a character that not only entertained but also challenged societal norms and sparked vital conversations about race, class, and prejudice. His nuanced performance showcased the power of television as a medium for social commentary and cultural reflection, earning him numerous accolades and cementing his status as a television icon.</p>
@@ -145,23 +117,26 @@
         <section id="contact">
             <div class="w3-container w3-green">
                 <h3>Contact Us</h3>
-              </div>
+            </div>
+            <p><a href="tel:+1234567890">Tel: +1 (234) 567-890</a></p>
+            <p><a href="mailto:team.b3@gmail.com">Email: team.b3@gmail.com</a></p>
+        </section>
 
-            <p>For inquiries, please contact us at: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-            
-            </section>
-
-            <section id="Card">
-                <div class="w3-card-4">
-                    <img src="img_snowtops.jpg" alt="Alps">
-                    <div class="w3-container w3-center">
-                      <p>The Italian / Austrian Alps</p>
-                    </div>
+        <section id="Card">
+            <h2>Featured Image</h2>
+            <div class="w3-card-4">
+                <img src="img_snowtops.jpg" alt="Alps">
+                <div class="w3-container w3-center">
+                    <p>The Italian / Austrian Alps</p>
+                </div>
+            </div>
+        </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2024 Avatar. Website: <a href="https://www.carrolloconnor.com">https://www.carrolloconnor.com</a></p>
+        <p>&copy; WebDev 2024</p>
+        <p class="special">Contact Us using Email</p>
     </footer>
 
 </body>

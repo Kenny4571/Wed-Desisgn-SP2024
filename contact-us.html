@@ -4,88 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- W3.CSS stylesheet -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
-<form method="post" action="mailto:your-email@example.com" enctype="text/plain">
-    <fieldset>
-        <div class="w3-container w3-teal">
-            <h2>Contact Information</h2>
+    <header class="custom-header">
+        <div class="w3-burgundy">
+            <img id="logo" src="images/theater1.gif" alt="theater1">
         </div>
-        <label>First Name</label>
-        <input class="w3-input" type="text">
-        <label>Email</label>
-        <input class="w3-input" type="text">
-        <label>Message</label>
-        <input class="w3-input" type="text">
-    </fieldset>
+        <div class="w3-green w3-hover-shadow w3-center">
+        </div>
+    </header>
 
-    <fieldset>
-        <label>Preferred Contact Method:</label><br>
-        <input type="radio" id="contact-email" name="contact-method" value="email" checked>
-        <label for="contact-email">Email</label><br>
-        <input type="radio" id="contact-phone" name="contact-method" value="phone">
-        <label for="contact-phone">Phone</label><br>
-        <label for="subscribe">Subscribe to Newsletter:</label>
-        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-        <label for="inquiry-type">Inquiry Type:</label>
-        <select id="inquiry-type" name="inquiry-type" required class="w3-select">
-            <option value="">Select One</option>
-            <option value="general">General Inquiry</option>
-            <option value="support">Customer Support</option>
-            <option value="feedback">Feedback</option>
-        </select>
-    </fieldset>
+    <form method="post" action="mailto:your-email@example.com" enctype="text/plain">
+        <fieldset>
+            <div class="w3-container w3-teal">
+                <h2>Contact Information</h2>
+            </div>
+            <label>First Name</label>
+            <input class="w3-input" type="text">
+            <label>Email</label>
+            <input class="w3-input" type="text">
+            <label>Message</label>
+            <input class="w3-input" type="text">
+        </fieldset>
 
-    <div>
-        <button type="submit" class="w3-button w3-green">Submit</button>
-        <button type="reset" class="w3-button w3-red">Reset</button>
-    </div>
-</form>
+        <fieldset>
+            <label>Preferred Contact Method:</label><br>
+            <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+            <label for="contact-email">Email</label><br>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+            <label for="contact-phone">Phone</label><br>
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="inquiry-type">Inquiry Type:</label>
+            <select id="inquiry-type" name="inquiry-type" required class="w3-select">
+                <option value="">Select One</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Customer Support</option>
+                <option value="feedback">Feedback</option>
+            </select>
+        </fieldset>
 
-<!-- New table section -->
-<section id="table-section">
-    <h3>Events Schedule List</h3>
-    <p>Below is a table with the list of Schedule Events</p>
-    <table class="w3-table w3-striped w3-bordered">
-        <caption>Upcoming Events</caption>
-        <thead>
-            <tr class="w3-teal">
-                <th>Date</th>
-                <th>Event</th>
-                <th>Location</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-               <td>March 15, 2024</td>
-                <td>Annual Conference</td>
-                <td>New York City</td>
-            </tr>
-            <tr>
-               <td>March 25, 2024</td>
-                <td>Product Launch</td>
-                <td>San Francisco</td>
-            </tr>
-            <tr>
-                <td>April 5, 2024</td>
-                <td>Workshop</td>
-                <td>Chicago</td>
-            </tr>
-            <tr>
-                <td>April 20, 2024</td>
-                <td>Seminar</td>
-                <td>Los Angeles</td>
-            </tr>
-            <tr>
-                <td>May 10, 2024</td>
-                <td>Networking Event</td>
-                <td>Miami</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+        <div>
+            <button type="submit" class="w3-button w3-green">Submit</button>
+            <button type="reset" class="w3-button w3-red">Reset</button>
+        </div>
+    </form>
 
+    <!-- New table section -->
+    <section id="table-section">
+        <h3>Events Schedule List</h3>
+        <p>Below is a table with the list of Schedule Events</p>
+        <table class="w3-table w3-striped w3-bordered">
+            <caption>Upcoming Events</caption>
+            <thead>
+                <tr class="w3-teal">
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>March 15, 2024</td>
+                    <td>Annual Conference</td>
+                    <td>New York City</td>
+                </tr>
+                <tr>
+                    <td>March 25, 2024</td>
+                    <td>Product Launch</td>
+                    <td>San Francisco</td>
+                </tr>
+                <tr>
+                    <td>April 5, 2024</td>
+                    <td>Workshop</td>
+                    <td>Chicago</td>
+                </tr>
+                <tr>
+                    <td>April 20, 2024</td>
+                    <td>Seminar</td>
+                    <td>Los Angeles</td>
+                </tr>
+                <tr>
+                    <td>May 10, 2024</td>
+                    <td>Networking Event</td>
+                    <td>Miami</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>
